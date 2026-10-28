@@ -1,0 +1,13 @@
+{
+  "name": "@sap/worker",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "tsx watch src/worker.ts",
+    "start": "tsx src/worker.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.9.0",
+    "amqplib": "^0.10.7",
+    "dotenv": "^16.5.0"
+  }
+}
